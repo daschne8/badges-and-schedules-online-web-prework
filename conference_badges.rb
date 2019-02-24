@@ -12,7 +12,8 @@ end
 
 def assign_rooms(speakers)
   room_assignments = []
-  for room_num in 1..7 do
+  range = speakers.length
+  for room_num in 1..range do
     speaker = speakers[room_num-1]
     room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{room_num}!")
   end
