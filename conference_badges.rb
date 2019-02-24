@@ -21,12 +21,5 @@ def assign_rooms(speakers)
 end
 
 def printer
-end
 
-def test
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus","Matz"]
-  room_assignments = assign_rooms(speakers)
-  room_assignments.each do |assignment|
-    puts assignment
-  end
 end
